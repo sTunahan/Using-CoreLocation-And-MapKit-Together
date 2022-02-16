@@ -16,6 +16,8 @@
 		11F412D627BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F412D527BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherTests.swift */; };
 		11F412E027BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F412DF27BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITests.swift */; };
 		11F412E227BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F412E127BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITestsLaunchTests.swift */; };
+		11F412F027BD277D00BCCCA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F412EF27BD277D00BCCCA6 /* CoreLocation.framework */; };
+		11F412F227BD278300BCCCA6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F412F127BD278300BCCCA6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		11F412DB27BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usingCoreLocation_and_MapKit_togetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F412DF27BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingCoreLocation_and_MapKit_togetherUITests.swift; sourceTree = "<group>"; };
 		11F412E127BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usingCoreLocation_and_MapKit_togetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11F412EF27BD277D00BCCCA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11F412F127BD278300BCCCA6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F412F227BD278300BCCCA6 /* MapKit.framework in Frameworks */,
+				11F412F027BD277D00BCCCA6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				11F412D427BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherTests */,
 				11F412DE27BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITests */,
 				11F412BC27BD276E00BCCCA6 /* Products */,
+				11F412EE27BD277C00BCCCA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 				11F412E127BD277000BCCCA6 /* usingCoreLocation_and_MapKit_togetherUITestsLaunchTests.swift */,
 			);
 			path = usingCoreLocation_and_MapKit_togetherUITests;
+			sourceTree = "<group>";
+		};
+		11F412EE27BD277C00BCCCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F412F127BD278300BCCCA6 /* MapKit.framework */,
+				11F412EF27BD277D00BCCCA6 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
